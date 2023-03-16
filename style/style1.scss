@@ -1,0 +1,176 @@
+// *{
+//     margin: 0%;
+//     padding: 0%;
+//     box-sizing: border-box;
+// }
+// @mixin section(){
+//     height: 100vh;
+// }
+// @mixin center(){
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+// }
+// @mixin link(){
+//     text-decoration: none;
+//     color: $primary;
+//     font-family: 'Prompt', sans-serif;
+//     font-size: large;
+// }
+// @mixin logo(){
+//     font-family: 'Work Sans', sans-serif;
+//     font-size: larger;
+//     color: $heading;
+// }
+// $banner: #112D4E;
+// $primary: #EEEEEE;
+// $heading:#00ADB5;
+// $border_hover:#393E46;
+// $blog-p: #4a5260;
+// @mixin heading(){
+//     font-family: 'Jost', sans-serif;
+//     color: $heading;
+//     font-size: larger;
+// }
+// @mixin blog-head(){
+//     font-size: small;
+//     color: $primary;
+//     font-family: 'Work Sans', sans-serif;
+// }
+// @mixin primary(){
+//     font-family: 'EB Garamond', serif;
+//     color: $primary;
+//     font-size: 18px;
+// }
+// body{
+//     background-color: #222831;
+// }
+// $banner: #112D4E;
+// $primary: #EEEEEE;
+// $heading:#00ADB5;
+// $border_hover:#393E46;
+// $blog-p: #4a5260;
+// $background: #222831;
+// .container {
+//     display: flex;
+//     justify-content: center;
+//     flex-wrap: wrap;
+// }
+// .card{
+//     background-color: transparent;
+//     width: 1000px;
+//     margin: 10px;
+// }
+// .card-img{
+//     margin-bottom: 15px;
+//     border-radius: 15px;
+//     height: 400px;
+// }
+// .card-1{
+//     background-image: url('/img/blog1.png');
+//     background-size: cover;
+// }
+// .card-2{
+//     background-image: url('/img/blog2.png');
+//     background-size: cover;
+// }
+//     .card p{
+//         padding: 10px;
+//         @include primary();
+//         color: $blog-p;
+//         font-family: 'Work Sans', sans-serif;;  
+    // }
+    .card a{
+        background-color: $border_hover;
+        padding: 15px 20px;
+        display: block;
+        text-align: center;
+        @include link();
+    }
+    .card a:hover{
+        opacity: 0.7;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@mixin section(){
+    height: 100vh;
+}
+@mixin center(){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@mixin link(){
+    text-decoration: none;
+    color: $primary;
+    font-family: 'Prompt', sans-serif;
+    font-size: large;
+}
+@mixin logo(){
+    font-family: 'Work Sans', sans-serif;
+    font-size: larger;
+    color: $heading;
+}
+$banner: #112D4E;
+$primary: #EEEEEE;
+$heading:#00ADB5;
+$border_hover:#393E46;
+$blog-p: #4a5260;
+@mixin heading(){
+    font-family: 'Jost', sans-serif;
+    color: $primary ;
+    font-size: 40px;
+}
+@mixin blog-head(){
+    font-size: small;
+    color: $primary;
+    font-family: 'Work Sans', sans-serif;
+}
+@mixin primary(){
+    font-family: 'EB Garamond', serif;
+    color: $primary;
+    font-size: 18px;
+}
+body{
+    background-color: #222831;
+}
+$banner: #112D4E;
+$primary: #EEEEEE;
+$heading:#00ADB5;
+$border_hover:#393E46;
+$blog-p: #4a5260;
+$background: #222831;
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: transparent;
+    width: 1000px;
+    margin: 10px;
+}
+.card-img{
+    margin-bottom: 15px;
+    border-radius: 15px;
+    height: 400px;
+}
+.card-1{
+    background-image: url('/img/blog1.png');
+    background-size: cover;
+}
+    .card p{
+        padding: 10px;
+        @include primary();
+        color: $blog-p;
+        font-family: 'Work Sans', sans-serif;;  
+    }
+    .card h2{
+        @include heading();
+        margin-left: 10px;
+    }

@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00ADB5;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #222831;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.home {
+  height: 100vh;
+}
+
+.menu i {
+  color: #C9D6DF;
+  font-size: 48px;
+}
+
+.nav__bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  z-index: 1000000;
+  display: none;
+}
+
+.nav__bar.active {
+  display: block;
+}
+
+.nav__bar a {
+  text-decoration: none;
+  display: grid;
+}
+
+.nav__bar i {
+  padding: 20px 20px 20px;
+  color: #0E8388;
+  font-size: 40px;
+}
+
+.nav__bar i:hover {
+  opacity: 0.7;
+}
+
+nav .logo {
+  font-family: "Work Sans", sans-serif;
+  font-size: larger;
+  color: #00ADB5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Jost", sans-serif;
+  color: #00ADB5;
+  font-size: larger;
+}
+
+.center a {
+  text-decoration: none;
+}
+
+.center button {
+  background-color: #393E46;
+  border: none;
+  padding: 10px 10px 10px;
+  width: 45%;
+  font-size: 12px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+button.active {
+  background-color: #00ADB5;
+}
+
+.center button:hover {
+  background-color: #00ADB5;
+}
+
+.hide.show {
+  display: none;
+}
+
+.banner {
+  background-color: #112D4E;
+  height: 35vh;
+}
+
+.banner .banner-center {
+  display: flex;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.banner .banner-center .img img {
+  height: 70px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.banner .banner-center h1 {
+  font-family: "Jost", sans-serif;
+  color: #00ADB5;
+  font-size: larger;
+}
+
+.banner .banner-center p {
+  font-family: "EB Garamond", serif;
+  color: #EEEEEE;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: transparent;
+  width: 270px;
+  margin: 10px;
+}
+
+.card-img {
+  height: 155px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+.card-1 {
+  background-image: url("/img/blog1.png");
+  background-size: cover;
+}
+
+.card-2 {
+  background-image: url("/img/blog2.png");
+  background-size: cover;
+}
+
+.card-3 {
+  background-image: url("/img/blog3.png");
+  background-size: cover;
+}
+
+.card-4 {
+  background-image: url("/img/blog4.png");
+  background-size: cover;
+}
+
+.card-5 {
+  background-image: url("/img/blog5.png");
+  background-size: cover;
+}
+
+.card h2 {
+  font-family: "Jost", sans-serif;
+  color: #00ADB5;
+  font-size: larger;
+  color: #EEEEEE !important;
+}
+
+.card p {
+  padding: 10px;
+  font-family: "EB Garamond", serif;
+  color: #EEEEEE;
+  font-size: 18px;
+  color: #4a5260;
+  font-family: "Work Sans", sans-serif;
+}
+
+.card a {
+  background-color: #393E46;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #EEEEEE;
+  font-family: "Prompt", sans-serif;
+  font-size: large;
+}
+
+.card a:hover {
+  opacity: 0.7;
+}
+
+.blog-link h1 {
+  text-decoration: none;
+  color: #EEEEEE;
+  font-family: "Prompt", sans-serif;
+  font-size: large;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 10px 10px 10px;
+  font-size: larger;
+  background-color: #00ADB5;
+}
+
+.blog-link h1:hover {
+  opacity: 0.7;
+}
+
+.blog-link a:hover {
+  background-color: #4a5260;
+}
+
+.card-6 {
+  background-image: url("/img/blog6.png");
+  background-size: cover;
+}
+
+.card-7 {
+  background-image: url("/img/blog7.png");
+  background-size: cover;
+}
+
+.card-7 {
+  background-image: url("/img/blog8.png");
+  background-size: cover;
+}
+
+.card-8 {
+  background-image: url("/img/blog9.png");
+  background-size: cover;
+}
+
+.card-9 {
+  background-image: url("/img/blog10.png");
+  background-size: cover;
+}
+
+.card-10 {
+  background-image: url("/img/blog11.png");
+  background-size: cover;
+}
+
+.card-11 {
+  background-image: url("/img/blog12.png");
+  background-size: cover;
+}
+
+.card-12 {
+  background-image: url("/img/blog13.png");
+  background-size: cover;
+}
+
+.card-13 {
+  background-image: url("/img/blog14.png");
+  background-size: cover;
+}
+
+.card-14 {
+  background-image: url("/img/blog15.png");
+  background-size: cover;
+}
+
+.card-15 {
+  background-image: url("/img/blog16.png");
+  background-size: cover;
+}
+
+.load {
+  display: none;
+}
+
+.active {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

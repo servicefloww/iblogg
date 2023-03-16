@@ -1,0 +1,110 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222831;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: transparent;
+  width: 1000px;
+  margin: 10px;
+}
+
+.card-img {
+  margin-bottom: 15px;
+  border-radius: 15px;
+  height: 400px;
+}
+
+.card-1 {
+  background-image: url("/img/blog1.png");
+  background-size: cover;
+}
+
+.card-2 {
+  background-image: url("/img/blog2.png");
+  background-size: cover;
+}
+
+.card p {
+  padding: 10px;
+  font-family: "EB Garamond", serif;
+  color: #EEEEEE;
+  font-size: 18px;
+  color: #4a5260;
+  font-family: "Work Sans", sans-serif;
+}
+
+.card a {
+  background-color: #393E46;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #EEEEEE;
+  font-family: "Prompt", sans-serif;
+  font-size: large;
+}
+
+.card a:hover {
+  opacity: 0.7;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222831;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: transparent;
+  width: 1000px;
+  margin: 10px;
+}
+
+.card-img {
+  margin-bottom: 15px;
+  border-radius: 15px;
+  height: 400px;
+}
+
+.card-1 {
+  background-image: url("/img/blog1.png");
+  background-size: cover;
+}
+
+.card p {
+  padding: 10px;
+  font-family: "EB Garamond", serif;
+  color: #EEEEEE;
+  font-size: 18px;
+  color: #4a5260;
+  font-family: "Work Sans", sans-serif;
+}
+
+.card h2 {
+  font-family: "Jost", sans-serif;
+  color: #EEEEEE;
+  font-size: 40px;
+  margin-left: 10px;
+}/*# sourceMappingURL=style1.css.map */
